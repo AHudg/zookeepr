@@ -14,7 +14,7 @@ function filterByQuery(query, animalsArray) {
         } else {
             personalityTraitsArray = query.personalityTraits;
         };
-        
+
         // Loop through each trait in the personalityTraits array:
         personalityTraitsArray.forEach(trait => {
             // Check the trait against each animal in the filteredResults array
@@ -49,6 +49,6 @@ app.get('/api/animals', (req, res) => {
     };
     res.json(results);
 });
-app.listen(3001, () => {
+app.listen(80, () => {
     console.log('API server now on port 3001');
 });
