@@ -108,6 +108,26 @@
         "hungry"
       ],
       "id": "10"
+    },
+    {
+      "name": "Eugene",
+      "species": "Butterfly",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "11"
+    },
+    {
+      "name": "Sarah",
+      "species": "Swine",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious",
+        "goofy"
+      ],
+      "id": "12"
     }
   ]
 }
